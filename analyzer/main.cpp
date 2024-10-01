@@ -65,11 +65,9 @@ int main() {
 	preTime = systemTimeNanoseconds();
 	index = binarySearch(stringData, "zzzzz");
 	endTime = systemTimeNanoseconds();
-
 	printf("Index @ %i\n", index);
 	printf("time to bianry %i\n", endTime - preTime);
 
-	printf("kys");
 	return 0;
 
 }
